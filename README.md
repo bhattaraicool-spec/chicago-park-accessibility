@@ -11,4 +11,4 @@ This project focuses on creating a unified park feature layer for Chicago by mer
 4. **Quality Control:** Validated data using **Topology Rules** (Must Not Overlap).
 
 ## Project Files
-* [Download Final Poster](./poster Dataintegration.pptx)
+* [Download Final Poster](./park-accessibility-poster.pptx)
