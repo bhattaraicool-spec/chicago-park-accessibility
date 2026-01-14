@@ -14,3 +14,4 @@ This project focuses on creating a unified park feature layer for Chicago by mer
 
 ## Project Deliverables
 * [Download Final Poster](./poster/park-accessibility-poster.pptx)
+* [See Output Map](./output/output_.jpg)
