@@ -1,15 +1,10 @@
----
-layout: default
-title: Chicago Park Accessibility Analysis
----
-
 # Integrating Municipal and Crowdsourced Data to Create a Unified Park Feature Layer
 **Author:** Image Bhattarai  
 
 ## Project Output
 Below is the map showing the integrated park feature layer for Chicago.
 
-![Chicago Park Map](./output/output_)
+![Chicago Park Map](./output/output_.jpg)
 
 ---
 
