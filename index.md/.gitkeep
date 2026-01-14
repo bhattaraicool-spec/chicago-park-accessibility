@@ -5,34 +5,18 @@ title: Chicago Park Accessibility Analysis
 
 # Integrating Municipal and Crowdsourced Data to Create a Unified Park Feature Layer
 **Author:** Image Bhattarai  
-**Department:** Geography and Geospatial Sciences  
 
-## Project Overview
-This project focuses on creating a unified park feature class for Chicago by merging official municipal data with OpenStreetMap (OSM) crowdsourced data. The goal is to provide a reliable dataset for analyzing urban green space accessibility.
+## Final Project Output
+This map represents the unified park feature layer for Chicago, created by merging Municipal and OSM data. It is symbolized by Median Household Income to highlight accessibility patterns.
 
-## Technical Methodology
-
-### 1. Geodetic Frameworks
-* **Projecting Data:** Re-projected OSM data from `GCS_WGS_1984` to `NAD_1983_2011_StatePlane_Illinois_East` to ensure spatial alignment with a sub-meter accuracy.
-
-### 2. Data Integration & Standardization
-* **Arcade Expressions:** Used to fix 12-digit Census ID mismatches, allowing for seamless tabular joins.
-* **Spatial Join:** Utilized the **CLOSEST** operator to eliminate "spatial nulls" and ensure accurate attribute assignment across disparate datasets.
-
-### 3. Quality Control
-* Established a **Geodatabase Topology** with rules such as "Must Not Overlap" to validate the geometric integrity of the final integrated layer.
+![Chicago Park Accessibility Map](./output/output_.jpg)
 
 ---
 
-## Project Deliverables
-* [📊 View Final Project Poster](./poster/poster_Dataintegration.pptx)
-  
-
----
-
-## Final Output Visualization
-Below is the initial output showing the integrated park layer symbolized by Median Household Income.
-
-![Chicago Park Analysis Results](./output/output_map.png)
+## Technical Process
+* **Geodetic Frameworks:** Re-projected OSM data from `GCS_WGS_1984` to `NAD_1983_2011_StatePlane_Illinois_East`.
+* **Standardization:** Utilized **Arcade Expressions** to resolve 12-digit Census ID mismatches.
+* **Spatial Integration:** Applied the **CLOSEST** spatial join operator to ensure 100% attribute coverage across the unified layer.
+* **Quality Control:** Validated vector integrity using **Topology Rules** (Must Not Overlap).
 
 ---
