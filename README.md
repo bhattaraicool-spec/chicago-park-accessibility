@@ -10,5 +10,7 @@ This project focuses on creating a unified park feature layer for Chicago by mer
 3. **Spatial Join:** Applied the `CLOSEST` operator to resolve spatial nulls between disparate datasets.
 4. **Quality Control:** Validated data using **Topology Rules** (Must Not Overlap).
 
-## Project Files
-* [Download Final Poster](./park-accessibility-poster.pptx)
+
+
+## Project Deliverables
+* [Download Final Poster](./poster/park-accessibility-poster.pptx)
